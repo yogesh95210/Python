@@ -40,3 +40,27 @@ if "The" in txt:
  
  # not in statement
  print("about" not in txt)
+
+
+
+ # Slicing with Strings
+
+ string= "PYTHON"
+
+#Slicing in given range
+print(string[2:5]) # THO
+
+#Slicing from the start
+
+print(string[:5]) #PYTHO
+
+#slicing to the End
+
+print(string[2:])  # THON
+
+# negative indexing slicing
+
+print(string[-5:-2])  # YTHs
+
+
+
