@@ -45,3 +45,38 @@ mixed_list.sort(key=str)
 
 print(mixed_list)
 # Output: [1, 10, 'mango', 'orange'] (Sorted according to string rules)
+
+
+
+
+
+# Sort Decending
+
+c = ["orange", "mango", "kiwi", "pineapple", "banana"]
+c.sort(reverse = True)
+print(c)
+
+
+list = [100, 50, 65, 82, 23]
+list.sort(reverse = True)
+print(list)   # [100, 82, 65, 50, 23]
+
+
+# Case Insensitive Sort
+
+arr= ["banana", "Orange", "Kiwi", "cherry"]
+arr.sort()
+print(arr)   #['Kiwi', 'Orange', 'banana', 'cherry']   # first capital letter word sort then small letter word
+
+# 
+
+arrlist = ["banana", "Orange", "Kiwi", "cherry"]
+arrlist.sort(key = str.lower)
+print(arrlist)   #['banana', 'cherry', 'Kiwi', 'Orange']  # first small letter word sort then capital letter sort
+
+
+# Reverse letter
+
+array = ["banana", "Orange", "Kiwi", "cherry"]
+array.reverse()
+print(array)   # 
